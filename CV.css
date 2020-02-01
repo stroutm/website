@@ -1,0 +1,111 @@
+/*
+Dark blue: #195073;
+Blue: #4E7FBF;
+Light blue: #71A8D9;
+Very light blue: #A3BFD9;
+Grey: #D9D3D0;
+*/
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #4D4D4D;
+    padding-top:100px;
+    font-size: 12pt;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-size: 10pt;
+  color: #919191;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#self-ref {
+  color: #4D4D4D; /*4E7FBF;*/
+}
+
+a {
+    color: #226D9C; /*195073;*/
+}
+
+.topnav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #F5F5F5;
+    color: #195073;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #195073;
+  text-align: center;
+  padding: 3px 16px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+/* Change the color of links on hover */
+.topnav-right a:hover {
+  background-color: #A3BFD9;
+  color: #1C1C1C;
+}
+
+/* Add a color to the active/current link */
+.topnav-right a.active {
+  background-color: #71A8D9;
+  color: #FFFFFF;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right a {
+  float: right;
+  color: #919191;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.row {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 50px;
+}
+
+.column {
+  flex: 50%;
+}
+
+table {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.research-title {
+  font-size: 12pt;
+  color: #226D9C; /*195073;*/
+}
+
+.research-desc {
+  font-size: 10pt
+}
